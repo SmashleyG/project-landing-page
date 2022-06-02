@@ -74,6 +74,71 @@ h1 {
 
 }
 
+body h3 {
+    align-self: center;
+    margin: 40px auto;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.photo-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.photo-display p {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.photo-display img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.section-three p {
+    height: auto;
+    width: 700px;
+}
+
+#quote {
+    font-size: 36px;
+    text-align: start;
+    font-weight: light;
+    color: #1F2937;
+    margin-bottom: 0;
+
+
+}
+
+#creator {
+    font-size: 18px;
+    text-align: right;
+    margin: 0;
+    font-weight: bolder;
+}
 
 a {
     text-decoration: none;
