@@ -191,3 +191,11 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: whitesmoke;
+    font-weight: bold;
+}
