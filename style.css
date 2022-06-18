@@ -136,8 +136,9 @@ body {
 
 .section-three #quote {
     font-size: 36px;
+    font-style: italic;
     text-align: start;
-    font-weight: light;
+    font-weight: 300;
     color: #1F2937;
     margin-bottom: 0;
 }
@@ -146,12 +147,12 @@ body {
     font-size: 18px;
     text-align: right;
     margin: 0;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .section-three p {
     height: auto;
-    width: 700px;
+    width: 800px;
 }
 
 .section-four {
