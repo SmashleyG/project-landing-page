@@ -165,10 +165,10 @@ body {
 .section-four #calltoaction-container {
     display: flex;
     background-color: #3882F6;
-    height: 100px;
-    width: 800px;
-    border-radius: 5px;
-    justify-content: space-evenly;
+    height: 125px;
+    width: 900px;
+    border-radius: 10px;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -182,25 +182,27 @@ body {
 
 .section-four #calltoaction-container #content-left h5 {
     margin: 0;
-    font-size: medium;
+    font-size: larger;
     font-weight: bolder;
     color: whitesmoke;
 }
 
 .section-four #calltoaction-container #content-left p {
     margin: 0;
-    font-size: small;
-    font-weight: lighter;
-    color: whitesmoke;
+    font-size: medium;
+    font-weight: 400;
+    color: rgba(245, 245, 245, 0.63);
 }
 
 .section-four #calltoaction-container button {
     border-color: whitesmoke;
     background-color: #3882F6;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 7.5px;
+    padding: 5px 25px;
+    border-width: 2px;
     border-style: solid;
     color: whitesmoke;
+    font-weight: bold;
 }
 
 .footer {
