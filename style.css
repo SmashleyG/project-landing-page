@@ -4,27 +4,35 @@ body {
     margin: 0;
 }
 
-.header {
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
+.header-section .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
+    width: 950px;
     padding: 0px 16px 0px 16px;
 }
 
-.header h1 {
+.header-section .header h1 {
     color: #F9FAF8;
     flex: 1;
     font-size: 24px;
 
 }
 
-.header .header-links {
+.header-section .header .header-links {
     display: flex;
     gap: 24px;
 }
 
-.header .header-links a {
+.header-section .header .header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
